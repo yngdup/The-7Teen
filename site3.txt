@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 7TEEN</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Black background for the entire page */
+            color: #fff; /* White text color for contrast */
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3.5em; /* Large, attractive font size */
+            letter-spacing: 5px; /* Spacing between letters for a stylish effect */
+            margin: 0;
+            color: #ffcc00; /* Yellow color for the title */
+        }
+
+        .manager, .notice {
+            margin-top: 50px;
+        }
+
+        .manager h2, .notice h2 {
+            font-size: 2.5em; /* Larger font size for section headings */
+            color: #ffcc00; /* Yellow color for section headings */
+            margin-bottom: 20px;
+        }
+
+        .manager p, .notice ul {
+            font-size: 1.8em; /* Larger, attractive font size for content */
+        }
+
+        .notice ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .notice ul li {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THE 7TEEN</h1>
+    </header>
+
+    <!-- Manager Section -->
+    <section class="manager">
+        <h2>The group is managed by:</h2>
+        <p>1. Avbhinav - Manager</p>
+    </section>
+
+    <!-- Singers Section -->
+    <section class="notice">
+        <h2>Singers</h2>
+        <ul>
+            <li>2. Avik - Singer</li>
+            <li>3. Shivanshu - Singer</li>
+            <li>4. Yangdup - Singer</li>
+        </ul>
+    </section>
+</body>
+</html>
